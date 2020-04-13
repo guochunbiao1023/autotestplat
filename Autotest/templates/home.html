@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta   http-equiv="Content-Type" content="text/html"  charset="UTF-8">
+    <title>自动化测试平台</title>
+</head>
+<body>
+<ul class="nav navbar-nav navbar-right">
+    <li>欢迎你，<a href="#">{{ user }}</a></li>
+    <li><a href="{% url 'logout' %}">退出</a> </li>
+</ul>
+
+</body>
+</html>
